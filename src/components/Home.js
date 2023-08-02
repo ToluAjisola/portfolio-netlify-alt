@@ -39,16 +39,4 @@ export default function Home() {
       </Fragment>
     );
 }
-{/* <body className="is-preload">
-          {/*Sidebar*/}
-          <section id="sidebar">
-            <Navbar />
-          </section>
-
-          {/* <!-- Wrapper --> */}
-          <div id="wrapper">
-            {/* <!-- Intro --> */}
-            <Intro/>
-            <Portfolio/>
-          </div>
-        //</body> 
+ 
