@@ -1,0 +1,8 @@
+.skill-wrapper > p{
+  color: rgb(26, 25, 25);
+  padding-top: 20px;
+  font-size: 1.3rem;
+  text-align: center; 
+  width: 70%;
+  margin: 0px auto 0px auto;
+}

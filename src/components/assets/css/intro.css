@@ -1,0 +1,51 @@
+/* Intro */
+
+	.intro-container {
+		background-attachment: fixed;
+		background-image: url("../images/intro.svg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-color: #5e42a6;
+		min-height: 100vh;
+		max-height: 90%;
+	}
+
+		.intro-container p {
+			font-size: 1.25rem;
+			padding: 40px;
+		}
+		.intro-container > h1, .intro-container > p{
+
+			text-align: left;
+			color: white;
+			position: relative;
+  left: 10%;
+  top: 150px;
+  
+		}
+
+
+			@media screen and (max-width: 980px) {
+
+				.intro-container p br {
+					display: none;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				.intro-container p {
+					font-size: 1em;
+				}
+
+			}
+
+		@media screen and (max-width: 1280px) {
+
+			.intro-container {
+				background-attachment: scroll;
+			}
+
+		}

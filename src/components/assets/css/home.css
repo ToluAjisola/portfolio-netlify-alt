@@ -1,0 +1,45 @@
+html{
+  min-height: 100vh;
+}
+
+body {
+  margin: 0px;
+  min-height: 100vh;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  margin: 0px;
+}
+
+.App{
+  position: relative;
+}
+
+.none{
+  display: none;
+}
+
+#sidebar + #content-wrapper {
+		margin-left: 22em;
+	}
+
+		@media screen and (max-width: 1280px) {
+
+			#sidebar + #wrapper {
+				margin-left: 0;
+				padding-top: 3.5em;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#sidebar + #content-wrapper {
+				padding-top: 0;
+			}
+
+		}
