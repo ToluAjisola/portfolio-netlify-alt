@@ -1,6 +1,109 @@
-html{
+@media screen and (max-width: 1280px){
+body, input, select, textarea {
+    font-size: 12pt;
+}
+}
+@media screen and (max-width: 1680px){
+body, input, select, textarea {
+    font-size: 13pt;
+}
+}
+body, input, select, textarea {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16.5pt;
+    font-weight: normal;
+    line-height: 1.75;
+}
+body {
+    background: #312450;
+}
+body {
+    -ms-overflow-style: scrollbar;
+}
+body {
+    -webkit-text-size-adjust: none;
+}
+body {
+    line-height: 1;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, 
+s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td, article, 
+aside, canvas, details, embed, figure, figcaption, footer, 
+header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ul {
+    list-style: disc;
+    margin: 0 0 2em 0;
+    padding-left: 1em;
+}
+
+ol, ul {
+    list-style: none;
+}
+ul li {
+    padding-left: 0.5em;
+}
+#sidebar + #content-wrapper {
+    margin-left: 18em;
+}
+@media screen and (max-width: 1280px){
+#sidebar + #content-wrapper {
+    margin-left: 0;
+    padding-top: 3.5em;
+}}
+
+
+div {
+    display: block;
+}
+/* html{
   min-height: 100vh;
 }
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
 
 body {
   margin: 0px;
@@ -42,4 +145,4 @@ body {
 				padding-top: 0;
 			}
 
-		}
+		} */

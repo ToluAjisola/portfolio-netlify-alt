@@ -10,7 +10,7 @@ import About from './About';
 export default function Home() {
     return (
       <Fragment>
-        <div className="main-wrapper">
+        <body class="is-preload">
 
 		{/* <!-- Sidebar --> */}
 			<section id="sidebar">
@@ -35,7 +35,7 @@ export default function Home() {
 
 			</div>
 
-	</div>
+	</body>
       </Fragment>
     );
 }

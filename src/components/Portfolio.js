@@ -1,5 +1,6 @@
 import React from 'react'
 import "./assets/css/portfolio.css";
+import thumbnail1 from "../components/assets/images/pic01.jpg";
 
 function Portfolio() {
   return (
@@ -9,8 +10,7 @@ function Portfolio() {
           <h2>Projects</h2>
           <div className="portfolio-wrapper">
             <div className="screenshot-wrapper">
-              <p>Project screenshot</p>
-              
+              <img src={thumbnail1} alt="My portfolio profile" />
             </div>
             <div className="detail-wrapper">
               <p>Project description</p>
