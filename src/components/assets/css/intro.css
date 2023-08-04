@@ -1,19 +1,52 @@
 /* Intro */
 
+.intro-container {
+	display: block;
+    position: relative;
+}
+.intro-container.style1 {
+    background-color: #5e42a6;
+}
 	.intro-container {
 		background-attachment: fixed;
 		background-image: url("../images/intro.svg");
-		background-position: top right;
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		background-color: #5e42a6;
-		min-height: 100vh;
-		max-height: 90%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 	}
+	.intro-container {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.intro-container > .inner {
+    padding: 5em 5em 3em 5em;
+    max-width: 100%;
+    width: 75em;
+	-moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+    -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+    -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+    transition: opacity 1s ease, transform 1s ease;
+    opacity: 1.0;
+}
 
 		.intro-container p {
 			font-size: 1.25rem;
-			padding: 40px;
+			/* padding: 40px; */
 		}
 		.intro-container > h1, .intro-container > p{
 
@@ -26,6 +59,21 @@
 		}
 
 
+	@media screen and (max-width: 1680px)
+{.intro-container > .inner {
+    padding: 4em 4em 2em 4em;
+}}
+@media screen and (max-width: 1280px) {
+
+			.intro-container {
+				background-attachment: scroll;
+				min-height: calc(100vh - 2.5em);
+			}
+			.intro-container > .inner {
+    width: 100%;
+}
+
+		}
 			@media screen and (max-width: 980px) {
 
 				.intro-container p br {
@@ -35,17 +83,22 @@
 			}
 
 			@media screen and (max-width: 736px) {
-
+.intro-container {
+    padding: 2em 0;
+    min-height: 0;
+}
 				.intro-container p {
 					font-size: 1em;
 				}
+				.intro-container > .inner {
+    padding: 3em 2em 1em 2em;
+}
+h1 {
+    font-size: 2em;
+}
 
 			}
 
-		@media screen and (max-width: 1280px) {
+		
 
-			.intro-container {
-				background-attachment: scroll;
-			}
-
-		}
+	

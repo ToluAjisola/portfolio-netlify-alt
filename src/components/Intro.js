@@ -4,7 +4,8 @@ import "./assets/css/intro.css";
 function Intro() {
   return (
 <>
-        <div className="intro-container">
+      <div className="intro-container style1">
+        <div className='inner'>
           <h1>Hello, I'm Toluwalope Ajisola.</h1>
           <p>
             Front-end React Developer and {' '}
@@ -12,6 +13,7 @@ function Intro() {
             I believe learning is only the first step in life.
           </p>
         </div>
+      </div>
 </>
   );
 }
