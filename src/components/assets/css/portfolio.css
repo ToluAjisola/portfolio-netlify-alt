@@ -1,48 +1,141 @@
-#portfolio{
-    background-color: #5759db;
+  #portfolio{
+    background-color: #5052b5;
+    position: relative;
 
-}
+  }
+  #portfolio > .portfolio-wrapper {
+      display: -moz-flex;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      -moz-flex-direction: row;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      min-height: 22.5em;
+  }
+  .screenshot-wrapper {
+      border-radius: 0.25em;
+      border: 0;
+      display: inline-block;
+      position: relative;
+  }
 
-#portfolio > p{
-  color: rgb(26, 25, 25);
-  padding-top: 20px;
-  font-size: 1.3rem;
-  text-align: center; 
-  width: 70%;
-  margin: 0px auto 0px auto;
-}
+  #portfolio > .portfolio-wrapper > .screenshot-wrapper {
+      background-position: center center;
+      background-size: cover;
+      border-radius: 0;
+      display: block;
+      position: relative;
+      width: 25em;
+      /* background-image: url("../images/pic01.jpg"); */
+  }
 
-.portfolio-wrapper{
-  width: 95%;
-  display: flex;
-  background-color: rgb(218, 93, 93);
-  margin: 10px auto 0px auto;
-  border-radius: 30px ;
-  box-shadow: 1px 3px 10px grey;
-  position: relative;
-}
+  .screenshot-wrapper img {
+      border-radius: 0.25em;
+      display: block;
+  }
 
-
-.screenshot-wrapper{
-  background:rgb(13, 206, 232);
-    width: 30%;
-    /* border-radius: 30px 0px 0px 30px; */
-}
-
-.image-wrapper > img{
+  #portfolio > .portfolio-wrapper > .screenshot-wrapper  img {
+height: 100%;
   width: 100%;
-  height: 100%;
-  border-radius: 30px 0px 0px 30px;
-  object-fit: cover;
-  object-position: center;
-}
-@media screen and (max-width: 736px) {
+  object-fit: cover
+    
 
-			#portfolio > .content > .screenshot-wrapper > img {
-				height: 50vh;
-				min-height: 15em;
-			}
+  }
 
-		}
+  #portfolio > .portfolio-wrapper  > .content {
+      padding: 4em 5em 2em 5em;
+      display: -moz-flex;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      -moz-flex-direction: column;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -moz-justify-content: center;
+      -webkit-justify-content: center;
+      -ms-justify-content: center;
+      justify-content: center;
+      width: 50em;
+      -ms-flex: 1;
+  }
 
+  #portfolio > .portfolio-wrapper > .screenshot-wrapper img {
+      border-radius: 0;
+      display: block;
+  }
+
+  @media screen and (max-width: 1680px){
+  #portfolio > .portfolio-wrapper > .content {
+      padding: 4em 4em 2em 4em;
+  }
+  }
+
+  @media screen and (max-width: 980px){
+  #portfolio > .portfolio-wrapper {
+      display: block;
+  }
+  #portfolio > .portfolio-wrapper > .screenshot-wrapper  {
+      width: 100%;
+      height: 50vh;
+  }
+  #portfolio > .portfolio-wrapper > .content {
+      width: 100%;
+  }
+  }
+
+  @media screen and (max-width: 736px){
+  #portfolio > .portfolio-wrapper > .screenshot-wrapper {
+      height: 50vh;
+      min-height: 15em;
+  }
+  #portfolio > .portfolio-wrapper > .content {
+      padding: 3em 2em 1em 2em;
+  }
+  }
+  /* 
+  #portfolio > p{
+    color: rgb(26, 25, 25);
+    padding-top: 20px;
+    font-size: 1.3rem;
+    text-align: center; 
+    width: 70%;
+    margin: 0px auto 0px auto;
+  }
+
+  .portfolio-wrapper{
+    width: 95%;
+    display: flex;
+    background-color: rgb(218, 93, 93);
+    margin: 10px auto 0px auto;
+    border-radius: 30px ;
+    box-shadow: 1px 3px 10px grey;
+    position: relative;
+  }
+
+
+  .screenshot-wrapper{
+    background:rgb(13, 206, 232);
+      width: 30%;
+    border-radius: 30px 0px 0px 30px; 
+  }
+
+  .image-wrapper > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 0px 0px 30px;
+    object-fit: cover;
+    object-position: center;
+  }
+  @media screen and (max-width: 736px) {
+
+        #portfolio > .content > .screenshot-wrapper > img {
+          height: 50vh;
+          min-height: 15em;
+        }
+
+      }
+  */
 
