@@ -5,7 +5,7 @@ import "./assets/css/home.css";
 import Intro from './Intro';
 import Contact from './Contact';
 import Skills from './Skills';
-import About from './About';
+/* import About from './About'; */
 
 export default function Home() {
     return (
@@ -30,7 +30,9 @@ export default function Home() {
 				{/*Display About on full screen then 
 				 Skills on smaller screens */}
 					{/* <About/> hide foe now*/}
-					<Skills/>
+				<Skills />
+				{/*or put picture beside skills 
+				and on smaller screens, make a flip card */ }
 
 				{/* <!-- Three --> */}
 					<Contact/>
