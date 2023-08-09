@@ -26,8 +26,10 @@ export default function Home() {
 				{/* <!-- One --> */}
 					<Portfolio/>
 
-					{/* <!-- Two --> */}
-					<About/>
+				{/* <!-- Two --> */}
+				{/*Display About on full screen then 
+				 Skills on smaller screens */}
+					{/* <About/> hide foe now*/}
 					<Skills/>
 
 				{/* <!-- Three --> */}

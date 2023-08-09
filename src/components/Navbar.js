@@ -16,7 +16,7 @@ function Navbar() {
             <a href="#two">What we do</a>
           </li>
           <li>
-            <a href="#three">Get in touch</a>
+            <a href="#contact">Get in touch</a>
           </li>
         </ul>
       </nav>
