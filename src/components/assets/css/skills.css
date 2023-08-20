@@ -85,6 +85,27 @@
     padding: 2.5em 1.5em 0.1em 5.5em;
 }
 }
+
+.image-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    
+}
+
+.image-wrapper > img{
+ height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  object-fit: cover;
+  object-position:  60% 0%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
 /* .skill-wrapper > p{
   color: rgb(26, 25, 25);
   padding-top: 20px;

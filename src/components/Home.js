@@ -10,36 +10,34 @@ import Skills from './Skills';
 export default function Home() {
     return (
       <Fragment>
-      
+        {/* <!-- Sidebar --> */}
+        <section id="sidebar">
+          <Navbar />
+        </section>
 
-		{/* <!-- Sidebar --> */}
-			<section id="sidebar">
-				<Navbar/>
-			</section>
+        {/* <!-- Wrapper --> */}
+        <div id="content-wrapper">
+          {/* <!-- Intro --> */}
+          <Intro />
 
-		{/* <!-- Wrapper --> */}
-			<div id="content-wrapper">
+          {/* <!-- One --> */}
+          <Portfolio />
 
-				{/* <!-- Intro --> */}
-					<Intro />
+          {/* <!-- Two --> */}
 
-				{/* <!-- One --> */}
-					<Portfolio/>
+          {/* <About/> hide foe now*/}
+          {/* Picture side by side with Resume*/}
+          {/* 
+		  on smaller screens; make picture smaller and circle
+		  and resume below it, and is a flip card to skills
+		  */}
+          <Skills />
+          {/*or put picture beside skills 
+				and on smaller screens, make a flip card */}
 
-				{/* <!-- Two --> */}
-				{/*Display About on full screen then 
-				 Skills on smaller screens */}
-					{/* <About/> hide foe now*/}
-				<Skills />
-				{/*or put picture beside skills 
-				and on smaller screens, make a flip card */ }
-
-				{/* <!-- Three --> */}
-					<Contact/>
-
-			</div>
-
-	
+          {/* <!-- Three --> */}
+          <Contact />
+        </div>
       </Fragment>
     );
 }
