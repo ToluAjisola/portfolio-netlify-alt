@@ -1,8 +1,6 @@
 import React from 'react'
 import "./assets/css/contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-solid-svg-icons";
-import { fab } from "@fortawesome/free-brands-svg-icons";
 
 function Contact() {
   return (
