@@ -58,7 +58,7 @@ function Contact() {
                   <h3>Social</h3>
                   <ul className="icons">
                     <li>
-                      <a href="https://www.linkedin.com/in/toluwalope-a-60545210a/">
+                      <a href="https://www.linkedin.com/in/toluwalope-ajisola/">
                         <FontAwesomeIcon
                           icon="fa-brands fa-linkedin"
                           style={{ color: "#ffffff" }}
