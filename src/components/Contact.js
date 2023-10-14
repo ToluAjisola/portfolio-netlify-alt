@@ -25,6 +25,10 @@ function Contact() {
                     <input type="text" name="email" id="email" />
                   </div>
                   <div className="field">
+                    <label for="subject">Subject</label>
+                    <input type='text' name="subject" id="subject" rows="5"/>
+                  </div>
+                  <div className="field">
                     <label for="message">Message</label>
                     <textarea name="message" id="message" rows="5"></textarea>
                   </div>
@@ -52,7 +56,7 @@ function Contact() {
                 </li>
                 <li>
                   <h3>Phone</h3>
-                  <span>(000) 000-0000</span>
+                  <span>(437) 366-1161</span>
                 </li>
                 <li>
                   <h3>Social</h3>
